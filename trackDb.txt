@@ -22,8 +22,8 @@ maxHeightPixels 128:50:11
     track S1_Track
     parent MyProject_Hub
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/susen/L20260205-1_filtered.sorted.q30.bed.bw
-    shortLabel S1_Signal
-    longLabel Sample S1 (Filtered Sorted Q30 BigWig)
+    shortLabel S1
+    longLabel L20260205-1
     type bigWig
     color 0,0,255
     subGroups group=S
@@ -31,8 +31,8 @@ maxHeightPixels 128:50:11
     track S2_Track
     parent MyProject_Hub
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/susen/L20260205-2_filtered.sorted.q30.bed.bw
-    shortLabel S2_Signal
-    longLabel Sample S2 (Filtered Sorted Q30 BigWig)
+    shortLabel S2
+    longLabel L20260205-2
     type bigWig
     color 0,0,255
     subGroups group=S
@@ -40,8 +40,8 @@ maxHeightPixels 128:50:11
     track S3_Track
     parent MyProject_Hub
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/susen/L20260205-3_filtered.sorted.q30.bed.bw
-    shortLabel S3_Signal
-    longLabel Sample S3 (Filtered Sorted Q30 BigWig)
+    shortLabel S3
+    longLabel L20260205-3
     type bigWig
     color 0,0,255
     subGroups group=S
@@ -52,8 +52,8 @@ maxHeightPixels 128:50:11
     track SD4_Track
     parent MyProject_Hub
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/susen/L20260205-4_filtered.sorted.q30.bed.bw
-    shortLabel SD4_Signal
-    longLabel Sample SD4 (Filtered Sorted Q30 BigWig)
+    shortLabel SD4
+    longLabel L20260205-4
     type bigWig
     color 255,0,0
     subGroups group=SD
@@ -61,8 +61,8 @@ maxHeightPixels 128:50:11
     track SD5_Track
     parent MyProject_Hub
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/susen/L20260205-5_filtered.sorted.q30.bed.bw
-    shortLabel SD5_Signal
-    longLabel Sample SD5 (Filtered Sorted Q30 BigWig)
+    shortLabel SD5
+    longLabel L20260205-5
     type bigWig
     color 255,0,0
     subGroups group=SD
@@ -70,8 +70,8 @@ maxHeightPixels 128:50:11
     track SD6_Track
     parent MyProject_Hub
     bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/susen/L20260205-6_filtered.sorted.q30.bed.bw
-    shortLabel SD6_Signal
-    longLabel Sample SD6 (Filtered Sorted Q30 BigWig)
+    shortLabel SD6
+    longLabel L20260205-6
     type bigWig
     color 255,0,0
     subGroups group=SD
