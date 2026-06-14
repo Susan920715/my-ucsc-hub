@@ -60,7 +60,7 @@ maxHeightPixels 128:50:11
 
     track SD5_Track
     parent MyProject_Hub
-    bigDataUrl https://figshare.com/ndownloader/files/65533152
+    bigDataUrl https://figshare.com/ndownloader/files/65533149
     shortLabel SD5_Signal
     longLabel Sample SD5 (Filtered Sorted Q30 BigWig)
     type bigWig
