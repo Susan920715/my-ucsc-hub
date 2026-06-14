@@ -1,0 +1,77 @@
+# ==========================================
+# 核心复合轨道定义
+# ==========================================
+track MyProject_Hub
+compositeTrack on
+shortLabel Project_Tracks
+longLabel Multimodal Regulation Study - 6 Samples
+type bigWig
+visibility full
+autoScale on
+alwaysZero on
+maxHeightPixels 128:50:11
+
+    # ------------------------------------------
+    # 定义子分组的元数据（用于在网页上分类筛选）
+    # ------------------------------------------
+    subGroup1 group Condition S=S_Group SD=SD_Group
+
+    # ------------------------------------------
+    # S 组 (样本 1, 2, 3) - 统一配置为蓝色
+    # ------------------------------------------
+    track S1_Track
+    parent MyProject_Hub
+    bigDataUrl L20260205-1_filtered.sorted.q30.bed.bw
+    shortLabel S1_Signal
+    longLabel Sample S1 (Filtered Sorted Q30 BigWig)
+    type bigWig
+    color 0,0,255
+    subGroups group=S
+
+    track S2_Track
+    parent MyProject_Hub
+    bigDataUrl L20260205-2_filtered.sorted.q30.bed.bw
+    shortLabel S2_Signal
+    longLabel Sample S2 (Filtered Sorted Q30 BigWig)
+    type bigWig
+    color 0,0,255
+    subGroups group=S
+
+    track S3_Track
+    parent MyProject_Hub
+    bigDataUrl L20260205-3_filtered.sorted.q30.bed.bw
+    shortLabel S3_Signal
+    longLabel Sample S3 (Filtered Sorted Q30 BigWig)
+    type bigWig
+    color 0,0,255
+    subGroups group=S
+
+    # ------------------------------------------
+    # SD 组 (样本 4, 5, 6) - 统一配置为红色
+    # ------------------------------------------
+    track SD4_Track
+    parent MyProject_Hub
+    bigDataUrl L20260205-4_filtered.sorted.q30.bed.bw
+    shortLabel SD4_Signal
+    longLabel Sample SD4 (Filtered Sorted Q30 BigWig)
+    type bigWig
+    color 255,0,0
+    subGroups group=SD
+
+    track SD5_Track
+    parent MyProject_Hub
+    bigDataUrl L20260205-5_filtered.sorted.q30.bed.bw
+    shortLabel SD5_Signal
+    longLabel Sample SD5 (Filtered Sorted Q30 BigWig)
+    type bigWig
+    color 255,0,0
+    subGroups group=SD
+
+    track SD6_Track
+    parent MyProject_Hub
+    bigDataUrl L20260205-6_filtered.sorted.q30.bed.bw
+    shortLabel SD6_Signal
+    longLabel Sample SD6 (Filtered Sorted Q30 BigWig)
+    type bigWig
+    color 255,0,0
+    subGroups group=SD
