@@ -1,0 +1,5 @@
+hub MyEpigenomicsHub
+shortLabel RNA-seq_Hub
+longLabel My Lab Epigenomics and Transcriptomics Hub
+genomesFile genomes.txt
+email wangjiamin@nibs.ac.cn
